@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payments</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <div class="login-page navbar">
+          <h2>Payments App</h2>
+          <form>
+            <input type="text" placeholder="Login" class="loginInput" />
+            <input type="password" placeholder="Parol" class="passwordInput" />
+            <button class="loginButton">Kirish</button>
+          </form>
+        </div>
+      </div>
+      <div class="payment-page hidden">
+        <nav class="navbar">
+          <h2 class="title"></h2>
+          <p class="log-out">Chiqish</p>
+        </nav>
+
+        <main class="main">
+          <div class="left">
+            <div class="my-card">
+              <h2>Mening kartam</h2>
+              <div class="card">
+                <p class="card-type">****</p>
+                <div><img src="./assets/icon/Group 1.svg" alt="" /></div>
+                <p class="amount">$ ****</p>
+                <p class="fullName">*** ***</p>
+                <div class="card-info">
+                  <p class="card-num">**** **** **** ***</p>
+                  <p class="card-date">**/**</p>
+                </div>
+              </div>
+            </div>
+            <div class="payment">
+              <h2>Pul o’tkazish</h2>
+              <form>
+                <input
+                  type="text"
+                  placeholder="Karta raqami"
+                  class="transfer-card-number"
+                />
+                <input
+                  type="text"
+                  placeholder="Summasi"
+                  class="transfer-amount"
+                />
+                <button class="transfer-button">Yuborish</button>
+              </form>
+            </div>
+          </div>
+          <div class="pay-history">
+            <h2>O'tkazmalar tarixi</h2>
+            <div class="overal-history">
+              <div class="in"></div>
+              <div class="out"></div>
+            </div>
+            <ul class="all-history">
+              <li class="history-item">
+                <div>
+                  <p class="fullName">**** ****</p>
+                  <p class="amount red">****$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">**.**.****</p>
+                  <p class="time">**:**</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
+    <div class="table-box">
+      <table class="table">
+        <thead>
+          <tr class="th-tr">
+            <th class="th">N/O</th>
+            <th class="th">F.I</th>
+            <th class="th">Login</th>
+            <th class="th">Parol</th>
+            <th class="th">Karta raqam</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <tr class="tbody-tr">
+            <td class="td">1</td>
+            <td class="td">Alisher Qobilov</td>
+            <td class="td">alisherqobilov</td>
+            <td class="td">@alisher2020</td>
+            <td class="td">1234_5678_9123_4567</td>
+          </tr>
+
+          <tr class="tbody-tr">
+            <td class="td">2</td>
+            <td class="td">Mahmud Qobilov</td>
+            <td class="td">mahmudqobilov</td>
+            <td class="td">@mahmud2020</td>
+            <td class="td">1234_5678_9123_6745</td>
+          </tr>
+
+          <tr class="tbody-tr">
+            <td class="td">3</td>
+            <td class="td">Elyor Qobilov</td>
+            <td class="td">elyorqobilov</td>
+            <td class="td">@elyor2020</td>
+            <td class="td">1234_5678_9123_1620</td>
+          </tr>
+
+          <tr class="tbody-tr">
+            <td class="td">4</td>
+            <td class="td">Ozodbek Qobilov</td>
+            <td class="td">ozodbekqobilov</td>
+            <td class="td">@ozodbek2020</td>
+            <td class="td">1234_5678_9123_0401</td>
+          </tr>
+
+          <tr class="tbody-tr">
+            <td class="td">5</td>
+            <td class="td">Abbos Qobilov</td>
+            <td class="td">abbosqobilov</td>
+            <td class="td">@abbos2020</td>
+            <td class="td">1234_5678_9123_0618</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
